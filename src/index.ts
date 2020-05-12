@@ -1,11 +1,10 @@
-import mqtt, { MqttClient } from 'mqtt'
 import {
   DeviceFactory,
   HostConfig,
   Strategy,
   ClientConfig,
   DeviceConfig,
-} from 'iotes'
+} from '@iotes/core'
 import { DeviceTypes, StrategyConfig } from './types'
 
 export const mqttStrategy: Strategy<StrategyConfig, DeviceTypes> = ({
