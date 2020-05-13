@@ -1,3 +1,9 @@
+# Setting up this template
+
+- Change package name in package.json
+- Change the git repo path in package.json (Not doing this will cause github packages release to fail)
+- Change the function name in index
+
 # `iotes/strategy-xxx`
 
 > TODO: description

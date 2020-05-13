@@ -7,7 +7,7 @@ import {
 } from '@iotes/core'
 import { DeviceTypes, StrategyConfig } from './types'
 
-export const mqttStrategy: Strategy<StrategyConfig, DeviceTypes> = ({
+export const xStrategy: Strategy<StrategyConfig, DeviceTypes> = ({
   hostDispatch,
   deviceDispatch,
   hostSubscribe,
